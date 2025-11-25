@@ -6,6 +6,7 @@ end
 vim.g.colors_name = "zola"
 
 local xterm_000 = "#000000"
+local xterm_002 = "#008000"
 local xterm_009 = "#ff0000"
 local xterm_010 = "#00ff00"
 local xterm_011 = "#ffff00"
@@ -15,6 +16,7 @@ local xterm_015 = "#ffffff"
 local xterm_017 = "#00005f"
 local xterm_019 = "#0000af"
 local xterm_027 = "#005fff"
+local xterm_028 = "#008700"
 local xterm_033 = "#0087ff"
 local xterm_040 = "#00d700"
 local xterm_044 = "#00d7d7"
@@ -75,7 +77,7 @@ theme = {
     String = { fg = xterm_010 },
     Statusline = { bg = xterm_246, fg = xterm_000, bold = true },
     Visual = { bg = xterm_238 },
-    MiniJump2dSpot = { bg = xterm_205, fg = xterm_000, bold = true },
+    MiniJump2dSpot = { bg = xterm_028, fg = xterm_000, bold = true },
 }
 
 for group, hl in pairs(theme) do
