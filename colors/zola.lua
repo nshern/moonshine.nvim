@@ -6,6 +6,7 @@ end
 vim.g.colors_name = "zola"
 
 local xterm_000 = "#000000"
+local xterm_001 = "#800000"
 local xterm_002 = "#008000"
 local xterm_003 = "#808000"
 local xterm_009 = "#ff0000"
@@ -21,8 +22,10 @@ local xterm_028 = "#008700"
 local xterm_033 = "#0087ff"
 local xterm_040 = "#00d700"
 local xterm_044 = "#00d7d7"
+local xterm_052 = "#5f0000"
 local xterm_058 = "#5f5f00"
 local xterm_059 = "#5f5f5f"
+local xterm_094 = "#875f00"
 local xterm_100 = "#878700"
 local xterm_160 = "#d70000"
 local xterm_164 = "#d700d7"
@@ -59,10 +62,11 @@ vim.g.terminal_color_15 = xterm_015
 local theme
 
 theme = {
-    Comment = { fg = xterm_059 },
+    Comment = { fg = xterm_001, bold = true },
     CurSearch = { bg = xterm_011, fg = xterm_000 },
     CursorLine = { bg = xterm_234 },
     DiagnosticError = { fg = xterm_009 },
+    Directory = { fg = xterm_014 },
     DiagnosticHint = { fg = xterm_033 },
     DiagnosticWarn = { fg = xterm_011 },
     Function = { fg = xterm_014 },
