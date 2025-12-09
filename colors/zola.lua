@@ -9,6 +9,7 @@ local xterm_000 = "#000000"
 local xterm_001 = "#800000"
 local xterm_002 = "#008000"
 local xterm_003 = "#808000"
+local xterm_004 = "#000080"
 local xterm_009 = "#ff0000"
 local xterm_010 = "#00ff00"
 local xterm_011 = "#ffff00"
@@ -52,7 +53,11 @@ theme = {
     DiagnosticHint = { fg = xterm_033 },
     DiagnosticOk = { Link = String },
     DiagnosticWarn = { fg = xterm_011 },
+    DiagnosticInfo = { fg = xterm_014 },
+    DiagnosticVirtualTextHint = { bg = xterm_004, fg = xterm_033 },
     Directory = { fg = xterm_014 },
+    MoreMsg = { link = "Directory" },
+    Question = { link = "Directory" },
     ErrorMsg = { fg = xterm_160 },
     Function = { fg = xterm_014 },
     Identifier = { fg = xterm_033 },
