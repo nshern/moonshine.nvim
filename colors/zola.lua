@@ -79,7 +79,7 @@ theme = {
     Special = { fg = xterm_014 },
     Statement = { fg = xterm_013 },
     Statusline = { bg = xterm_246, fg = xterm_000, bold = true },
-    String = { fg = xterm_040 },
+    String = { fg = xterm_010 },
     Visual = { bg = xterm_238 },
     WarningMsg = { fg = xterm_184 },
     ["Title"] = { bg = xterm_027, fg = xterm_184, bold = true },
