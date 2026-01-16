@@ -1,4 +1,4 @@
-# zola.nvim
+# Moonshine.nvim
 
 Dark, 256-color-friendly colorscheme for Neovim.
 
@@ -11,20 +11,20 @@ Dark, 256-color-friendly colorscheme for Neovim.
 With [lazy.nvim](https://github.com/folke/lazy.nvim):
 ```lua
 {
-  "nshern/zola.nvim",
+  "nshern/moonshine.nvim",
   lazy = false,
   priority = 1000,
   config = function()
-    vim.cmd.colorscheme("zola")
+    vim.cmd.colorscheme("moonshine")
   end,
 }
 ```
 
 Any plugin manager that can place the files on `runtimepath` works; once installed run:
 ```vim
-:colorscheme zola
+:colorscheme moonshine
 ```
 
 ## Notes
-- Colors live in `colors/zola.lua` if you want to tweak highlights.
+- Colors live in `colors/moonshine.lua` if you want to tweak highlights.
 - No external dependencies beyond Neovim itself. Neovim 0.7+ is recommended for the `vim.api.nvim_set_hl` calls used by the scheme.

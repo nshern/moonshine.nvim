@@ -3,7 +3,7 @@ if vim.fn.exists("syntax_on") == 1 then
     vim.cmd("syntax reset")
 end
 
-vim.g.colors_name = "zola"
+vim.g.colors_name = "moonshine"
 
 local xterm_000 = "#000000"
 local xterm_001 = "#800000"
