@@ -73,6 +73,7 @@ theme = {
     Normal = {},
     Constant = {link = Normal},
     Delimiter = {link = Normal},
+    Operator = {link = Normal},
     ["@variable"] = { link = Normal },
     OkMsg = { link = String },
     Pmenu = { bg = xterm_246, fg = xterm_000 },
