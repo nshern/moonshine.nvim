@@ -71,6 +71,8 @@ theme = {
     NonText = { link = Comment },
     -- Normal = { bg = xterm_233, fg = xterm_254 },
     Normal = {},
+    Constant = {link = Normal},
+    Delimiter = {link = Normal},
     ["@variable"] = { link = Normal },
     OkMsg = { link = String },
     Pmenu = { bg = xterm_246, fg = xterm_000 },
